@@ -144,8 +144,8 @@ def cover(report):
                      Spacer(1, 27)]
     report.markdown += ["# Laboratory Work 1: Concurrency in Practice\n"]
     report.table(["", ""], [
-        ["Author", "Rustem Cimendur"], ["Group", "FAF-243"],
-        ["Verified", "Cristofor Fistic, asist. univ."],
+        ["Author:", "Rustem Cimendur"], ["Group:", "FAF-243"],
+        ["Verified:", "Cristofor Fistic, asist. univ."],
         ["Implementation", "Python - OS threads - free-threaded CPython"],
         ["Measurement date", "22 October 2026"],
     ], [95, WIDTH - 95])
@@ -276,7 +276,7 @@ def task1b_page(report, rows, figure):
     report.table(["Run", "Time, s", "Negative", "Positive", "Zero", "Total", "Lost updates"], [
         [r["repetition"], f"{r['wall_seconds']:.3f}", f"{r['counts']['negative']:,}", f"{r['counts']['positive']:,}",
          r["counts"]["zero"], f"{r['total']:,}", f"{50_000_000 - r['total']:,}"] for r in unsafe
-    ], [27, 66, 93, 93, 33, 94, WIDTH - 406])
+    ], [34, 66, 93, 93, 33, 94, WIDTH - 413])
     ranking = sorted(parallel, key=lambda mode: statistics.mean(r["wall_seconds"] for r in parallel[mode]))
     report.qa(4, "Rank the methods and explain correctness",
               "Recorded time ranking at 32 threads: " + " < ".join(names[mode].lower() for mode in ranking) +
@@ -353,13 +353,23 @@ def task2_page(report, rows, a_rows, reconnect, figure):
              "parser and a cold HDD, whereas Task 1a uses buffered lines and a warm NVMe "
              "file. The next page separates read time from parsing and adds matched controls.")
     best = min(rows, key=lambda r: r["wall_seconds"])
+    improvement = one["wall_seconds"] / best["wall_seconds"]
+    behavior = ("More threads do help in the measured range: Python parsing runs in "
+                "parallel and reading can overlap other workers' parsing. This does not "
+                "mean that the disk itself supplies proportionally more bandwidth. "
+                if improvement > 1.1 else
+                "Extra readers do not provide a substantial speed-up in these observations. ")
     report.p(f"The best observed USB configuration uses {best['threads']} thread(s), "
-             f"with speed-up {one['wall_seconds'] / best['wall_seconds']:.2f}x. "
+             f"with speed-up {improvement:.2f}x. " + behavior +
              "Concurrent readers share one HDD mechanism, controller, and USB link; "
              "additional streams may add seeks and cannot multiply its bandwidth. "
              "Independent network waits can overlap without sharing that single disk "
              "mechanism, which explains why the lecture's I/O example need not predict "
              "the same scaling here.")
+    report.p("Each part is approximately 44 MiB. A worker releases its file buffer "
+             "before reading its next file, so at most one whole-file buffer per worker "
+             "is live. Increasing the thread count therefore increases concurrent "
+             "buffer memory even when it does not improve storage throughput.", small=True)
 
 
 def storage_diagnosis(report, usb, controls, timeline, control_figure):
@@ -389,6 +399,18 @@ def storage_diagnosis(report, usb, controls, timeline, control_figure):
         diagnosis = ("This is a mixed CPU-and-storage workload at one thread: neither parsing "
                      "nor reading is negligible. Its classification changes with the work "
                      "division and available storage concurrency.")
+    four = next(row for row in usb if row["threads"] == 4)
+    groups = [[] for _ in range(4)]
+    for item in four["details"]["file_timings"]:
+        number = int(item["file"][5:7])
+        groups[(number - 1) % 4].append(item)
+    critical = max(groups, key=lambda items: max(
+        item["read_start"] + item["read_seconds"] + item["parse_seconds"] for item in items))
+    critical_read = sum(item["read_seconds"] for item in critical)
+    critical_parse = sum(item["parse_seconds"] for item in critical)
+    diagnosis += (f" At four threads, the last-finishing worker spends {critical_read:.3f} s "
+                  f"reading and {critical_parse:.3f} s parsing: the critical path becomes "
+                  "mixed, with a larger storage-wait contribution as parsing is parallelized.")
     report.p(diagnosis)
     report.p("Controls are diagnostic additions, not replacements for cold USB runs. The "
              "local control reads the same eight parts on NVMe; the warm USB control follows "

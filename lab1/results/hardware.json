@@ -1,0 +1,87 @@
+{
+  "collected_at": "2026-10-22T22:08:40.6050745+03:00",
+  "cpu": [
+    {
+      "Name": "13th Gen Intel(R) Core(TM) i9-13900HX",
+      "NumberOfCores": 24,
+      "NumberOfLogicalProcessors": 32,
+      "MaxClockSpeed": 2200
+    }
+  ],
+  "system": {
+    "TotalPhysicalMemory": 34158272512,
+    "Manufacturer": "LENOVO",
+    "Model": "82WR"
+  },
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26200",
+    "BuildNumber": "26200",
+    "OSArchitecture": "64-bit"
+  },
+  "disks": [
+    {
+      "Number": 0,
+      "FriendlyName": "SAMSUNG MZVL21T0HCLR-00BL2",
+      "BusType": "NVMe",
+      "Size": 1024209543168,
+      "IsBoot": true,
+      "IsSystem": true
+    },
+    {
+      "Number": 1,
+      "FriendlyName": "StoreJet ",
+      "BusType": "USB",
+      "Size": 2000398934016,
+      "IsBoot": false,
+      "IsSystem": false
+    }
+  ],
+  "physical_disks": [
+    {
+      "FriendlyName": "StoreJet",
+      "MediaType": "Unspecified",
+      "BusType": "USB",
+      "Size": 2000398934016
+    },
+    {
+      "FriendlyName": "SAMSUNG MZVL21T0HCLR-00BL2",
+      "MediaType": "SSD",
+      "BusType": "NVMe",
+      "Size": 1024209543168
+    }
+  ],
+  "volumes": [
+    {
+      "DriveLetter": "D",
+      "FileSystemLabel": "Transcend",
+      "FileSystem": "NTFS",
+      "Size": 2000396742656,
+      "SizeRemaining": 1779918737408
+    },
+    {
+      "DriveLetter": "C",
+      "FileSystemLabel": "",
+      "FileSystem": "NTFS",
+      "Size": 1022983401472,
+      "SizeRemaining": 419739652096
+    }
+  ],
+  "partitions": [
+    {
+      "DiskNumber": 0,
+      "DriveLetter": "C",
+      "Size": 1022983405568
+    },
+    {
+      "DiskNumber": 1,
+      "DriveLetter": "D",
+      "Size": 2000396746752
+    }
+  ],
+  "power_plan": {
+    "guid": "381b4222-f694-41f0-9685-ff5bb260df2e",
+    "name": "Balanced"
+  },
+  "localization_note": "Windows localized OS and power-plan display names are translated into English; numeric specifications are unchanged."
+}

@@ -1,0 +1,44 @@
+[1/22] Running task1a_local_01t_r1
+  6.104 s | 33.0 MiB | total=50,000,000 | correct=True
+[2/22] Running task1a_local_02t_r1
+  3.238 s | 34.2 MiB | total=50,000,000 | correct=True
+[3/22] Running task1a_local_04t_r1
+  1.705 s | 36.8 MiB | total=50,000,000 | correct=True
+[4/22] Running task1a_local_08t_r1
+  0.969 s | 41.8 MiB | total=50,000,000 | correct=True
+[5/22] Running task1a_local_16t_r1
+  0.662 s | 51.9 MiB | total=50,000,000 | correct=True
+[6/22] Running task1a_local_32t_r1
+  0.583 s | 72.0 MiB | total=50,000,000 | correct=True
+[7/22] Running task1a_local_64t_r1
+  0.567 s | 92.1 MiB | total=50,000,000 | correct=True
+[8/22] Running task1c_local_01t_r1
+  4.422 s | 108.9 MiB | total=50,000,000 | correct=True
+[9/22] Running task1c_local_02t_r1
+  3.361 s | 39.3 MiB | total=50,000,000 | correct=True
+[10/22] Running task1c_local_04t_r1
+  3.462 s | 40.8 MiB | total=50,000,000 | correct=True
+[11/22] Running task1c_local_08t_r1
+  3.454 s | 44.1 MiB | total=50,000,000 | correct=True
+[12/22] Running task1c_local_16t_r1
+  3.433 s | 52.1 MiB | total=50,000,000 | correct=True
+[13/22] Running task1c_local_32t_r1
+  4.161 s | 67.5 MiB | total=50,000,000 | correct=True
+[14/22] Running task1c_local_64t_r1
+  5.612 s | 97.8 MiB | total=50,000,000 | correct=True
+[15/22] Running task1b_unsafe_01t_r1
+  3.321 s | 540.6 MiB | total=50,000,000 | correct=True
+[16/22] Running task1b_unsafe_32t_r1
+  267.585 s | 540.6 MiB | total=4,501,921 | correct=False
+[17/22] Running task1b_unsafe_32t_r2
+  293.434 s | 608.7 MiB | total=4,424,414 | correct=False
+[18/22] Running task1b_unsafe_32t_r3
+  269.582 s | 615.7 MiB | total=4,468,127 | correct=False
+[19/22] Running task1b_lock_01t_r1
+  7.518 s | 547.7 MiB | total=50,000,000 | correct=True
+[20/22] Running task1b_lock_32t_r1
+  174.617 s | 547.7 MiB | total=50,000,000 | correct=True
+[21/22] Running task1b_local_01t_r1
+  1.887 s | 615.6 MiB | total=50,000,000 | correct=True
+[22/22] Running task1b_local_32t_r1
+  0.167 s | 540.7 MiB | total=50,000,000 | correct=True

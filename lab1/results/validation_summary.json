@@ -1,0 +1,17 @@
+{
+  "dataset_count": 50000000,
+  "reference_counts": {
+    "negative": 25004630,
+    "positive": 24995350,
+    "zero": 20
+  },
+  "local_configurations": 22,
+  "cold_usb_configurations": 3,
+  "additional_storage_controls": 2,
+  "all_correct_methods_match": true,
+  "unsafe_failures_observed": 3,
+  "usb_copies_verified": 8,
+  "usb_reconnects_observed": 3,
+  "all_measurements_gil_disabled": true,
+  "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb"
+}

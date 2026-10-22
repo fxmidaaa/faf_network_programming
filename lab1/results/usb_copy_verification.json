@@ -1,0 +1,55 @@
+{
+  "destination": "D:\\faf_network_programming\\lab1",
+  "verified_at": "2026-10-22T22:14:11.0509977+03:00",
+  "files": [
+    {
+      "name": "part_01.txt",
+      "bytes": 46180744,
+      "sha256": "d3320a2f2300d87ab1b9dbc1050436e48ccb60bbc6fba037527c2744369e167a",
+      "verified": true
+    },
+    {
+      "name": "part_02.txt",
+      "bytes": 46182802,
+      "sha256": "233db05025453c70e807da127e42b8dc804d1d589ff2b0c10ec444fabcd7853b",
+      "verified": true
+    },
+    {
+      "name": "part_03.txt",
+      "bytes": 46181468,
+      "sha256": "4ef7af2d84ff8d49b514773cf9dfc4b9d3f0e4171cbb34fc30ac357e325ee894",
+      "verified": true
+    },
+    {
+      "name": "part_04.txt",
+      "bytes": 46181960,
+      "sha256": "4daa850779f0cad123a0db637d595f3cdb316ce91adbadefa8dc98b74a3cc193",
+      "verified": true
+    },
+    {
+      "name": "part_05.txt",
+      "bytes": 46180782,
+      "sha256": "b22a3610544fcdb2bf18e03fa7d564ee769d26aa777908805919cb20e588fd37",
+      "verified": true
+    },
+    {
+      "name": "part_06.txt",
+      "bytes": 46179700,
+      "sha256": "a8365fefa1a12e50961950998b0415385d46bf58298a7020171801984c2cb648",
+      "verified": true
+    },
+    {
+      "name": "part_07.txt",
+      "bytes": 46182290,
+      "sha256": "e2426530004ea83a7ab8d15280f97bb703f0b70cefc0f6b18ca404d40e93e9ba",
+      "verified": true
+    },
+    {
+      "name": "part_08.txt",
+      "bytes": 46179492,
+      "sha256": "24cfa4ea1de204e84801735fbe4ae39709a673e7c60c113f914c437141b1b13d",
+      "verified": true
+    }
+  ],
+  "note": "All hash verification was completed before the physical disconnect for cold-cache runs."
+}

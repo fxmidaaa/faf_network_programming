@@ -1,6 +1,13 @@
 """Generate publication figures from recorded measurements, outside benchmarks."""
 
 from pathlib import Path
+import os
+
+# Keep plotting caches inside the project, separate from the counting runtime.
+_cache = Path(__file__).resolve().parent / "tmp/matplotlib"
+_cache.mkdir(parents=True, exist_ok=True)
+os.environ.setdefault("MPLCONFIGDIR", str(_cache))
+
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
@@ -144,7 +151,8 @@ def usb_timeline(rows, directory):
     axes[-1].set_xlabel("Seconds since file processing started")
     axes[0].plot([], [], color="#8c4b9b", lw=8, label="Read + file open/close")
     axes[0].plot([], [], color="#008675", lw=8, label="Parse + count")
-    axes[0].legend(loc="upper right", ncols=2, fontsize=10, frameon=False)
+    axes[0].legend(loc="lower right", bbox_to_anchor=(1, 1.02),
+                   ncols=2, fontsize=10, frameon=False)
     fig.tight_layout(h_pad=1.1)
     return save(fig, directory, "usb_read_parse_timeline")
 
@@ -196,6 +204,7 @@ def evidence(local, usb, dataset, test_log, directory):
     fig.text(.035, .95, "\n".join(lines), color="#e6f0f7", family="DejaVu Sans Mono",
              fontsize=12, va="top", linespacing=1.4)
     target = Path(directory) / "execution_evidence.png"
-    fig.savefig(target, dpi=200, facecolor=fig.get_facecolor(), bbox_inches="tight")
+    fig.savefig(target, dpi=200, facecolor=fig.get_facecolor(),
+                bbox_inches="tight", pad_inches=.2)
     plt.close(fig)
     return target

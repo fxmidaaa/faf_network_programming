@@ -1,0 +1,26 @@
+Generated 5,000,000/50,000,000 values
+Generated 10,000,000/50,000,000 values
+Generated 15,000,000/50,000,000 values
+Generated 20,000,000/50,000,000 values
+Generated 25,000,000/50,000,000 values
+Generated 30,000,000/50,000,000 values
+Generated 35,000,000/50,000,000 values
+Generated 40,000,000/50,000,000 values
+Generated 45,000,000/50,000,000 values
+Generated 50,000,000/50,000,000 values
+{
+  "count": 50000000,
+  "minimum": -1000000,
+  "maximum": 1000000,
+  "seed": 243,
+  "generator": "random.Random(seed).randint",
+  "counts": {
+    "negative": 25004630,
+    "positive": 24995350,
+    "zero": 20
+  },
+  "bytes": 369449238,
+  "sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+  "newline": "LF",
+  "encoding": "ASCII"
+}

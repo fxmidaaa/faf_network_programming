@@ -114,6 +114,19 @@ has occurred. Simply closing and reopening a file does not clear the filesystem
 cache. A USB HDD is used instead of a flash stick with the student's confirmation
 that this substitution is acceptable; the report identifies the actual device.
 
+For automatic recording of all three reconnects and measurements, use the supplied
+Windows observer instead of launching the three configurations manually:
+
+```console
+uv run --python 3.14t python lab1/usb_campaign.py --input D:/faf_network_programming/lab1
+```
+
+Follow its action message for each reconnect. It checks only drive-letter presence,
+records absence and reappearance, waits two seconds for mounting, then starts one
+measurement. It never opens the input files before timing. The published outputs
+already exist, so use `--output-dir lab1/results/new_usb` for a new campaign.
+The report uses `results/usb/reconnect_*.json` as corroborating OS evidence.
+
 Each worker reads a complete file with one `read()` call into one byte buffer,
 then parses it without making a list of lines. Eight files are assigned 8/4/2 per
 worker for 1/2/4 threads. Per-file read and parse times are also recorded.
@@ -138,6 +151,17 @@ worker for 1/2/4 threads. Per-file read and parse times are also recorded.
 - Local file runs use the normal OS cache. USB required runs follow the physical
   reconnect protocol. Additional storage controls, if present, are labeled and
   excluded from the required USB curves.
+
+### Additional matched-parser storage controls
+
+After completing the three cold runs, the report also measures the same buffer
+parser once on the local parts and once on the now-warm USB files. These controls
+help separate parser overhead from storage cost; neither replaces a cold run.
+
+```console
+uv run --python 3.14t python lab1/lab.py run 2 --input lab1/data/parts --threads 1 --role additional_storage_control --cold-confirmation "Diagnostic NVMe control; normal OS cache; not a cold USB run" --require-free-threaded --output lab1/results/controls/nvme_01t.json
+uv run --python 3.14t python lab1/lab.py run 2 --input D:/faf_network_programming/lab1 --threads 1 --role additional_warm_control --cold-confirmation "Diagnostic warm USB control after the cold campaign; no reconnect" --require-free-threaded --output lab1/results/controls/warm_usb_01t.json
+```
 
 ## Rebuild the report
 
