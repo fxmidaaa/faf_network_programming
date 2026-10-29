@@ -1,9 +1,0 @@
-{
-  "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
-  "executable": "C:\\Users\\ruste\\OneDrive\\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
-  "implementation": "CPython",
-  "free_threaded_build": true,
-  "gil_enabled": false,
-  "logical_processors": 32,
-  "platform": "Windows-11-10.0.26200-SP0"
-}

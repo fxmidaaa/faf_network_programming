@@ -1,0 +1,2102 @@
+{
+  "description": "Original measurements from 22 October 2026, before the module split. Values and original source hashes are unchanged.",
+  "source_revision": "11625ab9c96e28cf47da40323618d6c059913f68",
+  "source_file": "lab1/lab.py",
+  "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+  "local": [
+    {
+      "timestamp_utc": "2026-10-22T19:15:10.730969+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 1,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 6.103745899999922,
+      "cpu_seconds": 6.078125,
+      "average_cpu_cores": 0.9958024301110041,
+      "peak_memory_bytes": 34639872,
+      "peak_memory_mib": 33.03515625,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:14.334867+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 2,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 3.2382426999993186,
+      "cpu_seconds": 6.328125,
+      "average_cpu_cores": 1.9541849040534645,
+      "peak_memory_bytes": 35864576,
+      "peak_memory_mib": 34.203125,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            184724619
+          ],
+          [
+            184724619,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:16.318999+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 4,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 1.704732199999853,
+      "cpu_seconds": 6.75,
+      "average_cpu_cores": 3.9595662004862593,
+      "peak_memory_bytes": 38633472,
+      "peak_memory_mib": 36.84375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            92362309
+          ],
+          [
+            92362309,
+            184724619
+          ],
+          [
+            184724619,
+            277086928
+          ],
+          [
+            277086928,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:17.511950+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 8,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 0.9692171000006056,
+      "cpu_seconds": 7.53125,
+      "average_cpu_cores": 7.770446889551675,
+      "peak_memory_bytes": 43876352,
+      "peak_memory_mib": 41.84375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            46181154
+          ],
+          [
+            46181154,
+            92362309
+          ],
+          [
+            92362309,
+            138543464
+          ],
+          [
+            138543464,
+            184724619
+          ],
+          [
+            184724619,
+            230905773
+          ],
+          [
+            230905773,
+            277086928
+          ],
+          [
+            277086928,
+            323268083
+          ],
+          [
+            323268083,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:18.376695+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 16,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 0.661727200000314,
+      "cpu_seconds": 9.546875,
+      "average_cpu_cores": 14.427206558828878,
+      "peak_memory_bytes": 54460416,
+      "peak_memory_mib": 51.9375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            23090577
+          ],
+          [
+            23090577,
+            46181154
+          ],
+          [
+            46181154,
+            69271732
+          ],
+          [
+            69271732,
+            92362309
+          ],
+          [
+            92362309,
+            115452886
+          ],
+          [
+            115452886,
+            138543464
+          ],
+          [
+            138543464,
+            161634041
+          ],
+          [
+            161634041,
+            184724619
+          ],
+          [
+            184724619,
+            207815196
+          ],
+          [
+            207815196,
+            230905773
+          ],
+          [
+            230905773,
+            253996351
+          ],
+          [
+            253996351,
+            277086928
+          ],
+          [
+            277086928,
+            300177505
+          ],
+          [
+            300177505,
+            323268083
+          ],
+          [
+            323268083,
+            346358660
+          ],
+          [
+            346358660,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:19.144591+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 32,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 0.5833908000004158,
+      "cpu_seconds": 14.84375,
+      "average_cpu_cores": 25.443921981610647,
+      "peak_memory_bytes": 75501568,
+      "peak_memory_mib": 72.00390625,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            11545288
+          ],
+          [
+            11545288,
+            23090577
+          ],
+          [
+            23090577,
+            34635866
+          ],
+          [
+            34635866,
+            46181154
+          ],
+          [
+            46181154,
+            57726443
+          ],
+          [
+            57726443,
+            69271732
+          ],
+          [
+            69271732,
+            80817020
+          ],
+          [
+            80817020,
+            92362309
+          ],
+          [
+            92362309,
+            103907598
+          ],
+          [
+            103907598,
+            115452886
+          ],
+          [
+            115452886,
+            126998175
+          ],
+          [
+            126998175,
+            138543464
+          ],
+          [
+            138543464,
+            150088752
+          ],
+          [
+            150088752,
+            161634041
+          ],
+          [
+            161634041,
+            173179330
+          ],
+          [
+            173179330,
+            184724619
+          ],
+          [
+            184724619,
+            196269907
+          ],
+          [
+            196269907,
+            207815196
+          ],
+          [
+            207815196,
+            219360485
+          ],
+          [
+            219360485,
+            230905773
+          ],
+          [
+            230905773,
+            242451062
+          ],
+          [
+            242451062,
+            253996351
+          ],
+          [
+            253996351,
+            265541639
+          ],
+          [
+            265541639,
+            277086928
+          ],
+          [
+            277086928,
+            288632217
+          ],
+          [
+            288632217,
+            300177505
+          ],
+          [
+            300177505,
+            311722794
+          ],
+          [
+            311722794,
+            323268083
+          ],
+          [
+            323268083,
+            334813371
+          ],
+          [
+            334813371,
+            346358660
+          ],
+          [
+            346358660,
+            357903949
+          ],
+          [
+            357903949,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:20.036219+00:00",
+      "task": "1a",
+      "mode": null,
+      "threads": 64,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 0.5666830999998638,
+      "cpu_seconds": 14.546875,
+      "average_cpu_cores": 25.67021144622717,
+      "peak_memory_bytes": 96591872,
+      "peak_memory_mib": 92.1171875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "byte_ranges": [
+          [
+            0,
+            5772644
+          ],
+          [
+            5772644,
+            11545288
+          ],
+          [
+            11545288,
+            17317933
+          ],
+          [
+            17317933,
+            23090577
+          ],
+          [
+            23090577,
+            28863221
+          ],
+          [
+            28863221,
+            34635866
+          ],
+          [
+            34635866,
+            40408510
+          ],
+          [
+            40408510,
+            46181154
+          ],
+          [
+            46181154,
+            51953799
+          ],
+          [
+            51953799,
+            57726443
+          ],
+          [
+            57726443,
+            63499087
+          ],
+          [
+            63499087,
+            69271732
+          ],
+          [
+            69271732,
+            75044376
+          ],
+          [
+            75044376,
+            80817020
+          ],
+          [
+            80817020,
+            86589665
+          ],
+          [
+            86589665,
+            92362309
+          ],
+          [
+            92362309,
+            98134953
+          ],
+          [
+            98134953,
+            103907598
+          ],
+          [
+            103907598,
+            109680242
+          ],
+          [
+            109680242,
+            115452886
+          ],
+          [
+            115452886,
+            121225531
+          ],
+          [
+            121225531,
+            126998175
+          ],
+          [
+            126998175,
+            132770819
+          ],
+          [
+            132770819,
+            138543464
+          ],
+          [
+            138543464,
+            144316108
+          ],
+          [
+            144316108,
+            150088752
+          ],
+          [
+            150088752,
+            155861397
+          ],
+          [
+            155861397,
+            161634041
+          ],
+          [
+            161634041,
+            167406685
+          ],
+          [
+            167406685,
+            173179330
+          ],
+          [
+            173179330,
+            178951974
+          ],
+          [
+            178951974,
+            184724619
+          ],
+          [
+            184724619,
+            190497263
+          ],
+          [
+            190497263,
+            196269907
+          ],
+          [
+            196269907,
+            202042552
+          ],
+          [
+            202042552,
+            207815196
+          ],
+          [
+            207815196,
+            213587840
+          ],
+          [
+            213587840,
+            219360485
+          ],
+          [
+            219360485,
+            225133129
+          ],
+          [
+            225133129,
+            230905773
+          ],
+          [
+            230905773,
+            236678418
+          ],
+          [
+            236678418,
+            242451062
+          ],
+          [
+            242451062,
+            248223706
+          ],
+          [
+            248223706,
+            253996351
+          ],
+          [
+            253996351,
+            259768995
+          ],
+          [
+            259768995,
+            265541639
+          ],
+          [
+            265541639,
+            271314284
+          ],
+          [
+            271314284,
+            277086928
+          ],
+          [
+            277086928,
+            282859572
+          ],
+          [
+            282859572,
+            288632217
+          ],
+          [
+            288632217,
+            294404861
+          ],
+          [
+            294404861,
+            300177505
+          ],
+          [
+            300177505,
+            305950150
+          ],
+          [
+            305950150,
+            311722794
+          ],
+          [
+            311722794,
+            317495438
+          ],
+          [
+            317495438,
+            323268083
+          ],
+          [
+            323268083,
+            329040727
+          ],
+          [
+            329040727,
+            334813371
+          ],
+          [
+            334813371,
+            340586016
+          ],
+          [
+            340586016,
+            346358660
+          ],
+          [
+            346358660,
+            352131304
+          ],
+          [
+            352131304,
+            357903949
+          ],
+          [
+            357903949,
+            363676593
+          ],
+          [
+            363676593,
+            369449238
+          ]
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:33:25.395804+00:00",
+      "task": "1b",
+      "mode": "local",
+      "threads": 1,
+      "repetition": 1,
+      "role": "additional_baseline",
+      "wall_seconds": 1.8868586999997206,
+      "cpu_seconds": 1.84375,
+      "average_cpu_cores": 0.9771531911744494,
+      "peak_memory_bytes": 645521408,
+      "peak_memory_mib": 615.6171875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.267023100001097,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "local",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:33:31.093331+00:00",
+      "task": "1b",
+      "mode": "local",
+      "threads": 32,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 0.16749809999964782,
+      "cpu_seconds": 3.625,
+      "average_cpu_cores": 21.64203653657935,
+      "peak_memory_bytes": 566935552,
+      "peak_memory_mib": 540.671875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.2801911999995355,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "local",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:30:18.006659+00:00",
+      "task": "1b",
+      "mode": "lock",
+      "threads": 1,
+      "repetition": 1,
+      "role": "additional_baseline",
+      "wall_seconds": 7.518025699999271,
+      "cpu_seconds": 7.0,
+      "average_cpu_cores": 0.9310955135469514,
+      "peak_memory_bytes": 574304256,
+      "peak_memory_mib": 547.69921875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.022086900000431,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "lock",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:33:18.018461+00:00",
+      "task": "1b",
+      "mode": "lock",
+      "threads": 32,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 174.61703800000032,
+      "cpu_seconds": 415.78125,
+      "average_cpu_cores": 2.3811035553128512,
+      "peak_memory_bytes": 574300160,
+      "peak_memory_mib": 547.6953125,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.135143900000912,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "lock",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:58.130569+00:00",
+      "task": "1b",
+      "mode": "unsafe",
+      "threads": 1,
+      "repetition": 1,
+      "role": "additional_baseline",
+      "wall_seconds": 3.320507300000827,
+      "cpu_seconds": 3.28125,
+      "average_cpu_cores": 0.9881773185679137,
+      "peak_memory_bytes": 566874112,
+      "peak_memory_mib": 540.61328125,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.244056700001238,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "unsafe",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:20:31.310834+00:00",
+      "task": "1b",
+      "mode": "unsafe",
+      "threads": 32,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 267.5852861000003,
+      "cpu_seconds": 669.703125,
+      "average_cpu_cores": 2.502765136158207,
+      "peak_memory_bytes": 566849536,
+      "peak_memory_mib": 540.58984375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 2252423,
+        "positive": 2249478,
+        "zero": 20
+      },
+      "total": 4501921,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": false,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.330559999998513,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "unsafe",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:25:30.095780+00:00",
+      "task": "1b",
+      "mode": "unsafe",
+      "threads": 32,
+      "repetition": 2,
+      "role": "required",
+      "wall_seconds": 293.4344686000004,
+      "cpu_seconds": 753.15625,
+      "average_cpu_cores": 2.56669318227463,
+      "peak_memory_bytes": 638234624,
+      "peak_memory_mib": 608.66796875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 2211954,
+        "positive": 2212440,
+        "zero": 20
+      },
+      "total": 4424414,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": false,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.147292800000287,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "unsafe",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:30:05.203966+00:00",
+      "task": "1b",
+      "mode": "unsafe",
+      "threads": 32,
+      "repetition": 3,
+      "role": "required",
+      "wall_seconds": 269.58165089999966,
+      "cpu_seconds": 695.796875,
+      "average_cpu_cores": 2.581024608600321,
+      "peak_memory_bytes": 645619712,
+      "peak_memory_mib": 615.7109375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 2242297,
+        "positive": 2225810,
+        "zero": 20
+      },
+      "total": 4468127,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": false,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 5.117017199998372,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "array_length": 50000000,
+        "array_bytes": 200000000,
+        "synchronization": "unsafe",
+        "preload_timed": false
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:24.631949+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 1,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 4.421535499999663,
+      "cpu_seconds": 7.65625,
+      "average_cpu_cores": 1.7315817095668649,
+      "peak_memory_bytes": 114237440,
+      "peak_memory_mib": 108.9453125,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 1,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:28.237807+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 2,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 3.36137620000045,
+      "cpu_seconds": 8.078125,
+      "average_cpu_cores": 2.4032195503731235,
+      "peak_memory_bytes": 41205760,
+      "peak_memory_mib": 39.296875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 2,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:31.946475+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 4,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 3.461775600000692,
+      "cpu_seconds": 8.140625,
+      "average_cpu_cores": 2.3515750125451147,
+      "peak_memory_bytes": 42803200,
+      "peak_memory_mib": 40.8203125,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 4,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:35.569926+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 8,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 3.454340099999172,
+      "cpu_seconds": 8.203125,
+      "average_cpu_cores": 2.374729980988834,
+      "peak_memory_bytes": 46219264,
+      "peak_memory_mib": 44.078125,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 8,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:39.250761+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 16,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 3.432899900000848,
+      "cpu_seconds": 7.890625,
+      "average_cpu_cores": 2.2985304639957755,
+      "peak_memory_bytes": 54648832,
+      "peak_memory_mib": 52.1171875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 16,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:43.583552+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 32,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 4.161012300000948,
+      "cpu_seconds": 10.265625,
+      "average_cpu_cores": 2.467097970365928,
+      "peak_memory_bytes": 70803456,
+      "peak_memory_mib": 67.5234375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 32,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:15:49.358151+00:00",
+      "task": "1c",
+      "mode": null,
+      "threads": 64,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 5.611575599999924,
+      "cpu_seconds": 13.171875,
+      "average_cpu_cores": 2.347268563930633,
+      "peak_memory_bytes": 102522880,
+      "peak_memory_mib": 97.7734375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": null,
+      "details": {
+        "reader_threads": 1,
+        "worker_threads": 64,
+        "batch_size": 10000,
+        "queue_capacity_batches": 100,
+        "max_queued_lines": 1000000
+      }
+    }
+  ],
+  "usb": [
+    {
+      "timestamp_utc": "2026-10-22T19:35:31.724501+00:00",
+      "task": "2",
+      "mode": null,
+      "threads": 1,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 12.007251999999426,
+      "cpu_seconds": 7.890625,
+      "average_cpu_cores": 0.6571549426963287,
+      "peak_memory_bytes": 79716352,
+      "peak_memory_mib": 76.0234375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "D:\\faf_network_programming\\lab1",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": "User instructed to safely eject and physically reconnect. Drive absence observed 2026-10-22T19:35:10.357259+00:00; reappearance observed 2026-10-22T19:35:17.570759+00:00.",
+      "details": {
+        "files": [
+          "D:\\faf_network_programming\\lab1\\part_01.txt",
+          "D:\\faf_network_programming\\lab1\\part_02.txt",
+          "D:\\faf_network_programming\\lab1\\part_03.txt",
+          "D:\\faf_network_programming\\lab1\\part_04.txt",
+          "D:\\faf_network_programming\\lab1\\part_05.txt",
+          "D:\\faf_network_programming\\lab1\\part_06.txt",
+          "D:\\faf_network_programming\\lab1\\part_07.txt",
+          "D:\\faf_network_programming\\lab1\\part_08.txt"
+        ],
+        "file_timings": [
+          {
+            "file": "part_01.txt",
+            "bytes": 46180744,
+            "read_start": 0.0002872000004572328,
+            "read_seconds": 0.503830999999991,
+            "parse_seconds": 0.9779662000000826
+          },
+          {
+            "file": "part_02.txt",
+            "bytes": 46182802,
+            "read_start": 1.4821035000004485,
+            "read_seconds": 0.49179019999974116,
+            "parse_seconds": 1.0227438000001712
+          },
+          {
+            "file": "part_03.txt",
+            "bytes": 46181468,
+            "read_start": 2.9966499999991356,
+            "read_seconds": 0.5623841000015091,
+            "parse_seconds": 0.9657597999994323
+          },
+          {
+            "file": "part_04.txt",
+            "bytes": 46181960,
+            "read_start": 4.524800900000628,
+            "read_seconds": 0.5394442999986495,
+            "parse_seconds": 0.9532948000014585
+          },
+          {
+            "file": "part_05.txt",
+            "bytes": 46180782,
+            "read_start": 6.017547999999806,
+            "read_seconds": 0.4365632999997615,
+            "parse_seconds": 0.9345238000005338
+          },
+          {
+            "file": "part_06.txt",
+            "bytes": 46179700,
+            "read_start": 7.388650099999722,
+            "read_seconds": 0.6051695000005566,
+            "parse_seconds": 0.9484998999996606
+          },
+          {
+            "file": "part_07.txt",
+            "bytes": 46182290,
+            "read_start": 8.942327599999771,
+            "read_seconds": 0.6134380000003148,
+            "parse_seconds": 0.9431358000001637
+          },
+          {
+            "file": "part_08.txt",
+            "bytes": 46179492,
+            "read_start": 10.498909300000378,
+            "read_seconds": 0.49768000000040047,
+            "parse_seconds": 1.0077266999996937
+          }
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:36:58.185011+00:00",
+      "task": "2",
+      "mode": null,
+      "threads": 2,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 6.582438400000683,
+      "cpu_seconds": 8.234375,
+      "average_cpu_cores": 1.2509611939549856,
+      "peak_memory_bytes": 126218240,
+      "peak_memory_mib": 120.37109375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "D:\\faf_network_programming\\lab1",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": "User instructed to safely eject and physically reconnect. Drive absence observed 2026-10-22T19:36:42.297053+00:00; reappearance observed 2026-10-22T19:36:49.312161+00:00.",
+      "details": {
+        "files": [
+          "D:\\faf_network_programming\\lab1\\part_01.txt",
+          "D:\\faf_network_programming\\lab1\\part_02.txt",
+          "D:\\faf_network_programming\\lab1\\part_03.txt",
+          "D:\\faf_network_programming\\lab1\\part_04.txt",
+          "D:\\faf_network_programming\\lab1\\part_05.txt",
+          "D:\\faf_network_programming\\lab1\\part_06.txt",
+          "D:\\faf_network_programming\\lab1\\part_07.txt",
+          "D:\\faf_network_programming\\lab1\\part_08.txt"
+        ],
+        "file_timings": [
+          {
+            "file": "part_01.txt",
+            "bytes": 46180744,
+            "read_start": 0.00036780000118596945,
+            "read_seconds": 0.5092676000003848,
+            "parse_seconds": 1.0369914999992034
+          },
+          {
+            "file": "part_03.txt",
+            "bytes": 46181468,
+            "read_start": 1.5466463000011572,
+            "read_seconds": 0.5402699999995093,
+            "parse_seconds": 1.019961100000728
+          },
+          {
+            "file": "part_05.txt",
+            "bytes": 46180782,
+            "read_start": 3.1068891000013537,
+            "read_seconds": 0.43198759999904723,
+            "parse_seconds": 1.0002906000008807
+          },
+          {
+            "file": "part_07.txt",
+            "bytes": 46182290,
+            "read_start": 4.539175600000817,
+            "read_seconds": 0.5532401000000391,
+            "parse_seconds": 1.0197121000001061
+          },
+          {
+            "file": "part_02.txt",
+            "bytes": 46182802,
+            "read_start": 0.0007734000009804731,
+            "read_seconds": 0.9554327999994712,
+            "parse_seconds": 1.0358126000010088
+          },
+          {
+            "file": "part_04.txt",
+            "bytes": 46181960,
+            "read_start": 1.9920320000001084,
+            "read_seconds": 0.540676300000996,
+            "parse_seconds": 0.9965682000001834
+          },
+          {
+            "file": "part_06.txt",
+            "bytes": 46179700,
+            "read_start": 3.5292875000013737,
+            "read_seconds": 0.46948349999911443,
+            "parse_seconds": 0.9805954000003112
+          },
+          {
+            "file": "part_08.txt",
+            "bytes": 46179492,
+            "read_start": 4.979377200001181,
+            "read_seconds": 0.5503131999994366,
+            "parse_seconds": 1.0472114000003785
+          }
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:38:01.558232+00:00",
+      "task": "2",
+      "mode": null,
+      "threads": 4,
+      "repetition": 1,
+      "role": "required",
+      "wall_seconds": 4.869576600000073,
+      "cpu_seconds": 8.5,
+      "average_cpu_cores": 1.7455316341054934,
+      "peak_memory_bytes": 219201536,
+      "peak_memory_mib": 209.046875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "D:\\faf_network_programming\\lab1",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": "User instructed to safely eject and physically reconnect. Drive absence observed 2026-10-22T19:37:48.512329+00:00; reappearance observed 2026-10-22T19:37:54.326337+00:00.",
+      "details": {
+        "files": [
+          "D:\\faf_network_programming\\lab1\\part_01.txt",
+          "D:\\faf_network_programming\\lab1\\part_02.txt",
+          "D:\\faf_network_programming\\lab1\\part_03.txt",
+          "D:\\faf_network_programming\\lab1\\part_04.txt",
+          "D:\\faf_network_programming\\lab1\\part_05.txt",
+          "D:\\faf_network_programming\\lab1\\part_06.txt",
+          "D:\\faf_network_programming\\lab1\\part_07.txt",
+          "D:\\faf_network_programming\\lab1\\part_08.txt"
+        ],
+        "file_timings": [
+          {
+            "file": "part_01.txt",
+            "bytes": 46180744,
+            "read_start": 0.000994199999695411,
+            "read_seconds": 0.524089600001389,
+            "parse_seconds": 1.0383714999989024
+          },
+          {
+            "file": "part_05.txt",
+            "bytes": 46180782,
+            "read_start": 1.5634749000000738,
+            "read_seconds": 0.8753262000009272,
+            "parse_seconds": 1.0670454999999492
+          },
+          {
+            "file": "part_02.txt",
+            "bytes": 46182802,
+            "read_start": 0.0017798000008042436,
+            "read_seconds": 1.3649262999988423,
+            "parse_seconds": 1.054886500000066
+          },
+          {
+            "file": "part_06.txt",
+            "bytes": 46179700,
+            "read_start": 2.421606100000645,
+            "read_seconds": 0.9210266999998566,
+            "parse_seconds": 1.059223899999779
+          },
+          {
+            "file": "part_03.txt",
+            "bytes": 46181468,
+            "read_start": 0.0024412000002485,
+            "read_seconds": 1.9371380000011413,
+            "parse_seconds": 1.0631415999996534
+          },
+          {
+            "file": "part_07.txt",
+            "bytes": 46182290,
+            "read_start": 3.00273770000058,
+            "read_seconds": 0.8314630000004399,
+            "parse_seconds": 1.0299897999993846
+          },
+          {
+            "file": "part_04.txt",
+            "bytes": 46181960,
+            "read_start": 0.003065700000661309,
+            "read_seconds": 0.9293373000000429,
+            "parse_seconds": 1.0734780000002502
+          },
+          {
+            "file": "part_08.txt",
+            "bytes": 46179492,
+            "read_start": 2.0058951000009984,
+            "read_seconds": 0.921208800000386,
+            "parse_seconds": 1.066137699999672
+          }
+        ]
+      }
+    }
+  ],
+  "controls": [
+    {
+      "timestamp_utc": "2026-10-22T19:38:44.858959+00:00",
+      "task": "2",
+      "mode": null,
+      "threads": 1,
+      "repetition": 1,
+      "role": "additional_storage_control",
+      "wall_seconds": 7.9477774999995745,
+      "cpu_seconds": 7.8125,
+      "average_cpu_cores": 0.9829792039347375,
+      "peak_memory_bytes": 79585280,
+      "peak_memory_mib": 75.8984375,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": "Diagnostic NVMe control; normal OS cache; not a cold USB run",
+      "details": {
+        "files": [
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_01.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_02.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_03.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_04.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_05.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_06.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_07.txt",
+          "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\\part_08.txt"
+        ],
+        "file_timings": [
+          {
+            "file": "part_01.txt",
+            "bytes": 46180744,
+            "read_start": 0.00031829999898036476,
+            "read_seconds": 0.02288380000027246,
+            "parse_seconds": 0.9741911000000982
+          },
+          {
+            "file": "part_02.txt",
+            "bytes": 46182802,
+            "read_start": 0.9974121999985073,
+            "read_seconds": 0.018764700000247103,
+            "parse_seconds": 0.9720489000010275
+          },
+          {
+            "file": "part_03.txt",
+            "bytes": 46181468,
+            "read_start": 1.988236600000164,
+            "read_seconds": 0.02520839999851887,
+            "parse_seconds": 0.9993184000013571
+          },
+          {
+            "file": "part_04.txt",
+            "bytes": 46181960,
+            "read_start": 3.0127707999999984,
+            "read_seconds": 0.019051799999942887,
+            "parse_seconds": 0.9902041999994253
+          },
+          {
+            "file": "part_05.txt",
+            "bytes": 46180782,
+            "read_start": 4.022034300000087,
+            "read_seconds": 0.03227899999910733,
+            "parse_seconds": 0.9831496999995579
+          },
+          {
+            "file": "part_06.txt",
+            "bytes": 46179700,
+            "read_start": 5.037478799999008,
+            "read_seconds": 0.019016000000192435,
+            "parse_seconds": 0.9319689999992988
+          },
+          {
+            "file": "part_07.txt",
+            "bytes": 46182290,
+            "read_start": 5.988470700000107,
+            "read_seconds": 0.015149699998801225,
+            "parse_seconds": 0.9666299000000436
+          },
+          {
+            "file": "part_08.txt",
+            "bytes": 46179492,
+            "read_start": 6.970256999999037,
+            "read_seconds": 0.008377500000278815,
+            "parse_seconds": 0.9665194000008341
+          }
+        ]
+      }
+    },
+    {
+      "timestamp_utc": "2026-10-22T19:38:36.754577+00:00",
+      "task": "2",
+      "mode": null,
+      "threads": 1,
+      "repetition": 1,
+      "role": "additional_warm_control",
+      "wall_seconds": 7.803951600000801,
+      "cpu_seconds": 7.6875,
+      "average_cpu_cores": 0.9850778674741154,
+      "peak_memory_bytes": 79618048,
+      "peak_memory_mib": 75.9296875,
+      "memory_metric": "process lifetime peak resident working set",
+      "counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "total": 50000000,
+      "expected_counts": {
+        "negative": 25004630,
+        "positive": 24995350,
+        "zero": 20
+      },
+      "correct": true,
+      "input_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+      "input": "D:\\faf_network_programming\\lab1",
+      "input_count": 50000000,
+      "preload_seconds_excluded": 0.0,
+      "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb",
+      "runtime": {
+        "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+        "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14+freethreaded-windows-x86_64-none\\python.exe",
+        "implementation": "CPython",
+        "free_threaded_build": true,
+        "gil_enabled": false,
+        "logical_processors": 32,
+        "platform": "Windows-11-10.0.26200-SP0"
+      },
+      "cold_confirmation": "Diagnostic warm USB control after the cold campaign; no reconnect",
+      "details": {
+        "files": [
+          "D:\\faf_network_programming\\lab1\\part_01.txt",
+          "D:\\faf_network_programming\\lab1\\part_02.txt",
+          "D:\\faf_network_programming\\lab1\\part_03.txt",
+          "D:\\faf_network_programming\\lab1\\part_04.txt",
+          "D:\\faf_network_programming\\lab1\\part_05.txt",
+          "D:\\faf_network_programming\\lab1\\part_06.txt",
+          "D:\\faf_network_programming\\lab1\\part_07.txt",
+          "D:\\faf_network_programming\\lab1\\part_08.txt"
+        ],
+        "file_timings": [
+          {
+            "file": "part_01.txt",
+            "bytes": 46180744,
+            "read_start": 0.0002994999995280523,
+            "read_seconds": 0.011843799999041948,
+            "parse_seconds": 0.9527110000017274
+          },
+          {
+            "file": "part_02.txt",
+            "bytes": 46182802,
+            "read_start": 0.9648746000002575,
+            "read_seconds": 0.00791639999988547,
+            "parse_seconds": 0.9760293999988789
+          },
+          {
+            "file": "part_03.txt",
+            "bytes": 46181468,
+            "read_start": 1.9488306000002922,
+            "read_seconds": 0.014426699999603443,
+            "parse_seconds": 0.9863702999991801
+          },
+          {
+            "file": "part_04.txt",
+            "bytes": 46181960,
+            "read_start": 2.949636199999077,
+            "read_seconds": 0.0073962999995274,
+            "parse_seconds": 0.9669769000011001
+          },
+          {
+            "file": "part_05.txt",
+            "bytes": 46180782,
+            "read_start": 3.9240176000002975,
+            "read_seconds": 0.014194599998518243,
+            "parse_seconds": 0.9608848000007129
+          },
+          {
+            "file": "part_06.txt",
+            "bytes": 46179700,
+            "read_start": 4.899115899999742,
+            "read_seconds": 0.008830599999782862,
+            "parse_seconds": 0.9446000000007189
+          },
+          {
+            "file": "part_07.txt",
+            "bytes": 46182290,
+            "read_start": 5.85255369999868,
+            "read_seconds": 0.013444500000332482,
+            "parse_seconds": 0.9521617000009428
+          },
+          {
+            "file": "part_08.txt",
+            "bytes": 46179492,
+            "read_start": 6.81816759999856,
+            "read_seconds": 0.006825200000093901,
+            "parse_seconds": 0.9756445000002714
+          }
+        ]
+      }
+    }
+  ]
+}

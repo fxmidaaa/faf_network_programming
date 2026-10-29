@@ -1,0 +1,330 @@
+{
+  "hardware": {
+    "collected_at": "2026-10-22T22:08:40.6050745+03:00",
+    "cpu": [
+      {
+        "Name": "13th Gen Intel(R) Core(TM) i9-13900HX",
+        "NumberOfCores": 24,
+        "NumberOfLogicalProcessors": 32,
+        "MaxClockSpeed": 2200
+      }
+    ],
+    "system": {
+      "TotalPhysicalMemory": 34158272512,
+      "Manufacturer": "LENOVO",
+      "Model": "82WR"
+    },
+    "os": {
+      "Caption": "Microsoft Windows 11 Pro",
+      "Version": "10.0.26200",
+      "BuildNumber": "26200",
+      "OSArchitecture": "64-bit"
+    },
+    "disks": [
+      {
+        "Number": 0,
+        "FriendlyName": "SAMSUNG MZVL21T0HCLR-00BL2",
+        "BusType": "NVMe",
+        "Size": 1024209543168,
+        "IsBoot": true,
+        "IsSystem": true
+      },
+      {
+        "Number": 1,
+        "FriendlyName": "StoreJet ",
+        "BusType": "USB",
+        "Size": 2000398934016,
+        "IsBoot": false,
+        "IsSystem": false
+      }
+    ],
+    "physical_disks": [
+      {
+        "FriendlyName": "StoreJet",
+        "MediaType": "Unspecified",
+        "BusType": "USB",
+        "Size": 2000398934016
+      },
+      {
+        "FriendlyName": "SAMSUNG MZVL21T0HCLR-00BL2",
+        "MediaType": "SSD",
+        "BusType": "NVMe",
+        "Size": 1024209543168
+      }
+    ],
+    "volumes": [
+      {
+        "DriveLetter": "D",
+        "FileSystemLabel": "Transcend",
+        "FileSystem": "NTFS",
+        "Size": 2000396742656,
+        "SizeRemaining": 1779918737408
+      },
+      {
+        "DriveLetter": "C",
+        "FileSystemLabel": "",
+        "FileSystem": "NTFS",
+        "Size": 1022983401472,
+        "SizeRemaining": 419739652096
+      }
+    ],
+    "partitions": [
+      {
+        "DiskNumber": 0,
+        "DriveLetter": "C",
+        "Size": 1022983405568
+      },
+      {
+        "DiskNumber": 1,
+        "DriveLetter": "D",
+        "Size": 2000396746752
+      }
+    ],
+    "power_plan": {
+      "guid": "381b4222-f694-41f0-9685-ff5bb260df2e",
+      "name": "Balanced"
+    },
+    "localization_note": "Windows localized OS and power-plan display names are translated into English; numeric specifications are unchanged."
+  },
+  "numbers.manifest": {
+    "count": 50000000,
+    "minimum": -1000000,
+    "maximum": 1000000,
+    "seed": 243,
+    "generator": "random.Random(seed).randint",
+    "counts": {
+      "negative": 25004630,
+      "positive": 24995350,
+      "zero": 20
+    },
+    "bytes": 369449238,
+    "sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+    "newline": "LF",
+    "encoding": "ASCII"
+  },
+  "parts.manifest": {
+    "source_sha256": "27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6",
+    "count": 50000000,
+    "counts": {
+      "negative": 25004630,
+      "positive": 24995350,
+      "zero": 20
+    },
+    "parts": [
+      {
+        "name": "part_01.txt",
+        "count": 6250000,
+        "bytes": 46180744,
+        "sha256": "d3320a2f2300d87ab1b9dbc1050436e48ccb60bbc6fba037527c2744369e167a"
+      },
+      {
+        "name": "part_02.txt",
+        "count": 6250000,
+        "bytes": 46182802,
+        "sha256": "233db05025453c70e807da127e42b8dc804d1d589ff2b0c10ec444fabcd7853b"
+      },
+      {
+        "name": "part_03.txt",
+        "count": 6250000,
+        "bytes": 46181468,
+        "sha256": "4ef7af2d84ff8d49b514773cf9dfc4b9d3f0e4171cbb34fc30ac357e325ee894"
+      },
+      {
+        "name": "part_04.txt",
+        "count": 6250000,
+        "bytes": 46181960,
+        "sha256": "4daa850779f0cad123a0db637d595f3cdb316ce91adbadefa8dc98b74a3cc193"
+      },
+      {
+        "name": "part_05.txt",
+        "count": 6250000,
+        "bytes": 46180782,
+        "sha256": "b22a3610544fcdb2bf18e03fa7d564ee769d26aa777908805919cb20e588fd37"
+      },
+      {
+        "name": "part_06.txt",
+        "count": 6250000,
+        "bytes": 46179700,
+        "sha256": "a8365fefa1a12e50961950998b0415385d46bf58298a7020171801984c2cb648"
+      },
+      {
+        "name": "part_07.txt",
+        "count": 6250000,
+        "bytes": 46182290,
+        "sha256": "e2426530004ea83a7ab8d15280f97bb703f0b70cefc0f6b18ca404d40e93e9ba"
+      },
+      {
+        "name": "part_08.txt",
+        "count": 6250000,
+        "bytes": 46179492,
+        "sha256": "24cfa4ea1de204e84801735fbe4ae39709a673e7c60c113f914c437141b1b13d"
+      }
+    ]
+  },
+  "runtime": {
+    "version": "3.14.5 free-threading build (main, Jun  2 2026, 22:36:35) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe",
+    "implementation": "CPython",
+    "free_threaded_build": true,
+    "gil_enabled": false,
+    "logical_processors": 32,
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "usb_connection": {
+    "matching_devices": [
+      {
+        "vendor_id": "8564",
+        "product_id": "7000",
+        "usb_descriptor_bcd": "0x0310",
+        "usb_specification": "3.10",
+        "port": 19,
+        "speed_ex": 2,
+        "v2_query_succeeded": true,
+        "v2_flags": 3,
+        "operating_at_superspeed_or_higher": true,
+        "operating_at_superspeed_plus_or_higher": false,
+        "method": "Windows USB hub descriptor and EX_V2 read-only queries"
+      }
+    ]
+  },
+  "usb_copy_verification": {
+    "destination": "D:\\faf_network_programming\\lab1",
+    "verified_at": "2026-10-22T22:14:11.0509977+03:00",
+    "files": [
+      {
+        "name": "part_01.txt",
+        "bytes": 46180744,
+        "sha256": "d3320a2f2300d87ab1b9dbc1050436e48ccb60bbc6fba037527c2744369e167a",
+        "verified": true
+      },
+      {
+        "name": "part_02.txt",
+        "bytes": 46182802,
+        "sha256": "233db05025453c70e807da127e42b8dc804d1d589ff2b0c10ec444fabcd7853b",
+        "verified": true
+      },
+      {
+        "name": "part_03.txt",
+        "bytes": 46181468,
+        "sha256": "4ef7af2d84ff8d49b514773cf9dfc4b9d3f0e4171cbb34fc30ac357e325ee894",
+        "verified": true
+      },
+      {
+        "name": "part_04.txt",
+        "bytes": 46181960,
+        "sha256": "4daa850779f0cad123a0db637d595f3cdb316ce91adbadefa8dc98b74a3cc193",
+        "verified": true
+      },
+      {
+        "name": "part_05.txt",
+        "bytes": 46180782,
+        "sha256": "b22a3610544fcdb2bf18e03fa7d564ee769d26aa777908805919cb20e588fd37",
+        "verified": true
+      },
+      {
+        "name": "part_06.txt",
+        "bytes": 46179700,
+        "sha256": "a8365fefa1a12e50961950998b0415385d46bf58298a7020171801984c2cb648",
+        "verified": true
+      },
+      {
+        "name": "part_07.txt",
+        "bytes": 46182290,
+        "sha256": "e2426530004ea83a7ab8d15280f97bb703f0b70cefc0f6b18ca404d40e93e9ba",
+        "verified": true
+      },
+      {
+        "name": "part_08.txt",
+        "bytes": 46179492,
+        "sha256": "24cfa4ea1de204e84801735fbe4ae39709a673e7c60c113f914c437141b1b13d",
+        "verified": true
+      }
+    ],
+    "note": "All hash verification was completed before the physical disconnect for cold-cache runs."
+  },
+  "validation_summary": {
+    "dataset_count": 50000000,
+    "reference_counts": {
+      "negative": 25004630,
+      "positive": 24995350,
+      "zero": 20
+    },
+    "local_configurations": 22,
+    "cold_usb_configurations": 3,
+    "additional_storage_controls": 2,
+    "all_correct_methods_match": true,
+    "unsafe_failures_observed": 3,
+    "usb_copies_verified": 8,
+    "usb_reconnects_observed": 3,
+    "all_measurements_gil_disabled": true,
+    "source_sha256": "5c6a9f0f16bf18d316925643ecf937a07e17d16910b867686d51539d7bfe40eb"
+  },
+  "usb_reconnects": [
+    {
+      "threads": 1,
+      "drive_letter": "D",
+      "observer_started_utc": "2026-10-22T19:33:52.804135+00:00",
+      "initially_present": true,
+      "removed_at_utc": "2026-10-22T19:35:10.357259+00:00",
+      "reconnected_at_utc": "2026-10-22T19:35:17.570759+00:00",
+      "observed_absent_then_present": true,
+      "method": "GetLogicalDrives, 200 ms polling; no dataset reads before measurement",
+      "human_instruction": "Safely eject, physically unplug, reconnect; do not open input files",
+      "limitation": "Drive-letter observation corroborates removal; physical action is performed by the user."
+    },
+    {
+      "threads": 2,
+      "drive_letter": "D",
+      "observer_started_utc": "2026-10-22T19:35:31.737773+00:00",
+      "initially_present": true,
+      "removed_at_utc": "2026-10-22T19:36:42.297053+00:00",
+      "reconnected_at_utc": "2026-10-22T19:36:49.312161+00:00",
+      "observed_absent_then_present": true,
+      "method": "GetLogicalDrives, 200 ms polling; no dataset reads before measurement",
+      "human_instruction": "Safely eject, physically unplug, reconnect; do not open input files",
+      "limitation": "Drive-letter observation corroborates removal; physical action is performed by the user."
+    },
+    {
+      "threads": 4,
+      "drive_letter": "D",
+      "observer_started_utc": "2026-10-22T19:36:58.199430+00:00",
+      "initially_present": true,
+      "removed_at_utc": "2026-10-22T19:37:48.512329+00:00",
+      "reconnected_at_utc": "2026-10-22T19:37:54.326337+00:00",
+      "observed_absent_then_present": true,
+      "method": "GetLogicalDrives, 200 ms polling; no dataset reads before measurement",
+      "human_instruction": "Safely eject, physically unplug, reconnect; do not open input files",
+      "limitation": "Drive-letter observation corroborates removal; physical action is performed by the user."
+    }
+  ],
+  "correctness_tests": "test_array_is_loaded_exactly (test_lab.CountingTests.test_array_is_loaded_exactly) ... ok\ntest_bounded_queue_and_partial_last_batch (test_lab.CountingTests.test_bounded_queue_and_partial_last_batch) ... ok\ntest_buffer_parser_edge_cases (test_lab.CountingTests.test_buffer_parser_edge_cases) ... ok\ntest_controlled_race_explains_a_lost_update (test_lab.CountingTests.test_controlled_race_explains_a_lost_update) ... ok\ntest_crlf_and_trailing_newline (test_lab.CountingTests.test_crlf_and_trailing_newline) ... ok\ntest_every_possible_two_way_byte_boundary (test_lab.CountingTests.test_every_possible_two_way_byte_boundary) ... ok\ntest_generation_and_order_preserving_split (test_lab.CountingTests.test_generation_and_order_preserving_split) ... ok\ntest_many_files_and_each_assignment (test_lab.CountingTests.test_many_files_and_each_assignment) ... ok\ntest_more_threads_than_lines_and_bytes (test_lab.CountingTests.test_more_threads_than_lines_and_bytes) ... ok\ntest_peak_memory_is_available (test_lab.CountingTests.test_peak_memory_is_available) ... ok\ntest_pipeline_propagates_parse_failure_and_stops (test_lab.CountingTests.test_pipeline_propagates_parse_failure_and_stops) ... ok\ntest_protected_and_private_counters (test_lab.CountingTests.test_protected_and_private_counters) ... ok\ntest_range_propagates_parse_failure (test_lab.CountingTests.test_range_propagates_parse_failure) ... ok\n\n----------------------------------------------------------------------\nRan 13 tests in 0.132s\n\nOK\n{\"demonstration_only\": true, \"expected\": 2, \"observed\": 1, \"explanation\": \"Both threads read zero before either writes one.\"}\n",
+  "commands": {
+    "controls/nvme_01t.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 2 --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\parts\" --threads 1 --role additional_storage_control --cold-confirmation \"Diagnostic NVMe control; normal OS cache; not a cold USB run\" --require-free-threaded --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\controls\\nvme_01t.json\"",
+    "controls/warm_usb_01t.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 2 --input D:\\faf_network_programming\\lab1 --threads 1 --role additional_warm_control --cold-confirmation \"Diagnostic warm USB control after the cold campaign; no reconnect\" --require-free-threaded --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\controls\\warm_usb_01t.json\"",
+    "local/task1a_local_01t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 1 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_01t_r1.json\" --require-free-threaded",
+    "local/task1a_local_02t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 2 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_02t_r1.json\" --require-free-threaded",
+    "local/task1a_local_04t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 4 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_04t_r1.json\" --require-free-threaded",
+    "local/task1a_local_08t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 8 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_08t_r1.json\" --require-free-threaded",
+    "local/task1a_local_16t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 16 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_16t_r1.json\" --require-free-threaded",
+    "local/task1a_local_32t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_32t_r1.json\" --require-free-threaded",
+    "local/task1a_local_64t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1a --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 64 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1a_local_64t_r1.json\" --require-free-threaded",
+    "local/task1b_local_01t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 1 --mode local --repetition 1 --role additional_baseline --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_local_01t_r1.json\" --require-free-threaded",
+    "local/task1b_local_32t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_local_32t_r1.json\" --require-free-threaded",
+    "local/task1b_lock_01t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 1 --mode lock --repetition 1 --role additional_baseline --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_lock_01t_r1.json\" --require-free-threaded",
+    "local/task1b_lock_32t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode lock --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_lock_32t_r1.json\" --require-free-threaded",
+    "local/task1b_unsafe_01t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 1 --mode unsafe --repetition 1 --role additional_baseline --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_unsafe_01t_r1.json\" --require-free-threaded",
+    "local/task1b_unsafe_32t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode unsafe --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_unsafe_32t_r1.json\" --require-free-threaded",
+    "local/task1b_unsafe_32t_r2.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode unsafe --repetition 2 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_unsafe_32t_r2.json\" --require-free-threaded",
+    "local/task1b_unsafe_32t_r3.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1b --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode unsafe --repetition 3 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1b_unsafe_32t_r3.json\" --require-free-threaded",
+    "local/task1c_local_01t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 1 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_01t_r1.json\" --require-free-threaded",
+    "local/task1c_local_02t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 2 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_02t_r1.json\" --require-free-threaded",
+    "local/task1c_local_04t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 4 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_04t_r1.json\" --require-free-threaded",
+    "local/task1c_local_08t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 8 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_08t_r1.json\" --require-free-threaded",
+    "local/task1c_local_16t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 16 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_16t_r1.json\" --require-free-threaded",
+    "local/task1c_local_32t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 32 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_32t_r1.json\" --require-free-threaded",
+    "local/task1c_local_64t_r1.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 1c --input \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.txt\" --manifest \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\data\\numbers.manifest.json\" --threads 64 --mode local --repetition 1 --role required --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\local\\task1c_local_64t_r1.json\" --require-free-threaded",
+    "usb/task2_01t.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 2 --input D:\\faf_network_programming\\lab1 --threads 1 --require-free-threaded --cold-confirmation \"User instructed to safely eject and physically reconnect. Drive absence observed 2026-10-22T19:35:10.357259+00:00; reappearance observed 2026-10-22T19:35:17.570759+00:00.\" --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\usb\\task2_01t.json\"",
+    "usb/task2_02t.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 2 --input D:\\faf_network_programming\\lab1 --threads 2 --require-free-threaded --cold-confirmation \"User instructed to safely eject and physically reconnect. Drive absence observed 2026-10-22T19:36:42.297053+00:00; reappearance observed 2026-10-22T19:36:49.312161+00:00.\" --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\usb\\task2_02t.json\"",
+    "usb/task2_04t.log": "$ \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\.tools\\python\\cpython-3.14.5+freethreaded-windows-x86_64-none\\python.exe\" \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\lab.py\" run 2 --input D:\\faf_network_programming\\lab1 --threads 4 --require-free-threaded --cold-confirmation \"User instructed to safely eject and physically reconnect. Drive absence observed 2026-10-22T19:37:48.512329+00:00; reappearance observed 2026-10-22T19:37:54.326337+00:00.\" --output \"C:\\Users\\ruste\\OneDrive\\Рабочий стол\\uni\\network_programming\\lab1\\results\\usb\\task2_04t.json\""
+  }
+}

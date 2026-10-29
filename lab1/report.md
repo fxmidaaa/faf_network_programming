@@ -1,5 +1,10 @@
 # Laboratory Work 1: Concurrency in Practice
 
+Repository note (29 October 2026): the code is now split into modules, and the
+original results are consolidated in `results/measurements.json` and
+`results/evidence.json`. All measured values are unchanged. The PDF preserves the
+original report; [README.md](README.md) describes the current file layout and commands.
+
 |  |  |
 | --- | --- |
 | Author: | Rustem Cimendur |
@@ -54,7 +59,7 @@ SHA-256: 27ae8d040ae17784f47c7d42bec00d6ff49dc7b0e8ad612cf6ef0104909d50a6
 
 ### One command-line program
 
-lab.py selects every task and configuration through arguments. It uses threading.Thread, threading.Lock, queue.Queue, and a compact array('i'). No process pool, NumPy counting, or synthetic sleeping workload is used. Task 1b workers hold non-copying views into the same preloaded integer array.
+lab.py selects every task and configuration through arguments. The algorithms are in tasks.py, input preparation is in dataset.py, and timing and validation are in benchmark.py. The program uses threading.Thread, threading.Lock, queue.Queue, and a compact array('i'). No process pool, NumPy counting, or synthetic sleeping workload is used. Task 1b workers hold non-copying views into the same preloaded integer array.
 
 
 ### Timing and CPU work
@@ -204,7 +209,7 @@ Controls are diagnostic additions, not replacements for cold USB runs. The local
 
 ## 8. Correctness and execution evidence
 
-![Figure 8. An evidence illustration rendered from the saved execution records and test log, not a desktop screenshot. Original JSON and command output are included in results/.](output/figures/execution_evidence.png)
+![Figure 8. An evidence illustration rendered from the saved execution records and test log, not a desktop screenshot. Original measurements, test output, and commands are retained in results/measurements.json and results/evidence.json.](output/figures/execution_evidence.png)
 
 | Configuration group | Runs | All three counters match? |
 | --- | --- | --- |
@@ -269,7 +274,7 @@ This is one machine, one seeded dataset, one recorded campaign, a Balanced power
 
 ### Reproduce and inspect
 
-The repository README gives exact commands for generation, splitting, every task, tests, cold USB runs, and report rebuilding. The suite uses a fresh process per configuration. Each measurement records counters, timing, peak memory, runtime/GIL state, input hash, and counting-source hash. summary.csv provides the chart data. DEFENSE.md explains the key code paths.
+The laboratory README gives commands for generation, splitting, every task, tests, and cold USB runs, plus a map of the source modules. The suite uses a fresh process per configuration. Each measurement records counters, timing, peak memory, runtime/GIL state, input hash, and source hash. results/summary.csv provides the chart data; results/measurements.json and results/evidence.json preserve the original campaign. The original source hash refers to lab.py at the Git revision recorded in measurements.json. New measurements fingerprint all five runtime modules. The final PDF and its PNG figures are retained; the report-generation tools were removed during repository cleanup.
 
 
 ### References
